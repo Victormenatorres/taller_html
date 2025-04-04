@@ -1,0 +1,184 @@
+/* Reset básico */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+
+/* Estilos generales */
+
+body {
+    background-color: #f7fafd;
+    color: #222;
+}
+
+
+/* Encabezado */
+
+header {
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+/* Hero Section */
+
+#hero {
+    background: url('img/auto.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #0056b3;
+}
+
+#hero h2 {
+    font-size: 2.5em;
+}
+
+#hero p {
+    margin: 10px 0;
+}
+
+.btn {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+
+/* Sección Nosotros */
+
+#nosotros {
+    text-align: center;
+    padding: 40px;
+    background: white;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+
+/* Productos */
+
+#productos {
+    text-align: center;
+    padding: 40px;
+}
+
+.productos-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.producto {
+    background: white;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    text-align: center;
+}
+
+.producto img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.producto h3 {
+    margin: 10px 0;
+}
+
+.producto .precio {
+    font-size: 1.2em;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+/* Servicios */
+
+#servicios {
+    text-align: center;
+    padding: 40px;
+    background: white;
+}
+
+.servicios-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.servicio {
+    width: 30%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #e6e6e6;
+    margin: 10px 0;
+}
+
+
+/* Contacto */
+
+#contacto {
+    text-align: center;
+    padding: 40px;
+    background: #007BFF;
+    color: white;
+}
+
+
+/* Footer */
+
+footer {
+    background: #0056b3;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
